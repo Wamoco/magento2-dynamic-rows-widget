@@ -1,0 +1,16 @@
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="Wamoco\DynamicRowsWidget\Block\Widget\View" id="infocenter_widget">
+        <label>EXAMPLE: Dynamic Rows</label>
+        <description>Widget to add dynamic rows</description>
+        <parameters>
+            <parameter name="title" xsi:type="text" required="true" visible="true" sort_order="10">
+                <label>Title</label>
+            </parameter>
+            <parameter name="link_list" xsi:type="block" visible="true" required="true" sort_order="10">
+                <label translate="true">Link List</label>
+                <block class="Wamoco\DynamicRowsWidget\Block\Adminhtml\DynamicRows"/>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

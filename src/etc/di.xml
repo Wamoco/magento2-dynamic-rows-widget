@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Widget\Model\Widget\Instance">
+        <plugin name="wmc_plugin_after_get_widget_parameters" type="Wamoco\DynamicRowsWidget\Plugin\AfterGetWidgetParameters" sortOrder="10" disabled="false"/>
+    </type>
+</config>

@@ -1,0 +1,13 @@
+<?php
+/** @var \Wamoco\DynamicRowsWidget\Block\Widget\View $block */
+?>
+<div>
+    <h3><?=$block->getTitle()?></h3>
+    <ul>
+        <?php foreach ($block->getLinkObjects('link_list') as $link):?>
+            <li>
+                <a href="<?= $link->getUrl() ?>"><?=$link->getTitle()?></a>
+            </li>
+        <?php endforeach;?>
+    </ul>
+</div>

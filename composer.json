@@ -1,7 +1,7 @@
 {
   "name": "wamoco/dynamic-rows-widget",
   "description": "Adds DataType dynamic rows to widget field",
-  "version": "1.2.0",
+  "version": "2.1.0",
   "type": "magento2-module",
   "license": "MIT",
   "authors": [
